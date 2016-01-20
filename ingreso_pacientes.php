@@ -375,7 +375,7 @@
 								<label class="control-label" for="appendedInputButton">R.U.T.</label>
 								<div class="controls">
 								  <div class="input-append">
-									<input id="appendedInputButton" size="5" type="text"><button class="btn" type="button">Buscar</button>
+									<input id="paciente_rut" onblur="onRutBlur(this);" size="5" type="text"><button class="btn" type="button">Buscar</button>
 								  </div>
 								</div>
 							<div class="control-group">
@@ -533,6 +533,15 @@
 		<script src="js/retina.js"></script>
 
 		<script src="js/custom.js"></script>
+		<script type="text/javascript" src="js/validaciones.js"></script>
+		<script type="text/javascript">
+			function onRutBlur(obj) {
+				if (VerificaRut(obj.value))
+					alert("Rut correcto");
+				else 
+					alert("Rut incorrecto");
+			}
+		</script>
 	<!-- end: JavaScript-->
 	
 </body>
