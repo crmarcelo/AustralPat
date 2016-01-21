@@ -12,6 +12,12 @@
 								<li><a class="submenu" href="ingreso_pacientes.php"><i class="icon-file-alt"></i><span class="hidden-tablet"> Ingreso de Pacientes</span></a></li>
 							</ul>	
 						</li>
+						<li>
+							<a class="dropmenu" href="#"><i class="icon-folder-close-alt"></i><span class="hidden-tablet">Doctores</span></a>
+							<ul>
+								<li><a class="submenu" href="doctores.php"><i class="icon-file-alt"></i><span class="hidden-tablet">Mantenedor Doctores</span></a></li>
+							</ul>	
+						</li>
 						
 						<li>
 							<a class="dropmenu" href="#"><i class="icon-folder-close-alt"></i><span class="hidden-tablet"> Biopsia</span></a>
