@@ -4,7 +4,7 @@
 	
 	<!-- start: Meta -->
 	<meta charset="utf-8">
-	<title>AustralPat</title>
+	<title>Solicitud de Biopsia</title>
 	<meta name="description" content="Bootstrap Metro Dashboard">
 	<meta name="author" content="Dennis Ji">
 	<meta name="keyword" content="Metro, Metro UI, Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
@@ -52,7 +52,7 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</a>
-				<a class="brand" href="index.html"><span><img src="img/australpat.png" style="width:20%;height:15%;" alt="austral"> </span></a>
+				<a class="brand" href="index.html"><span>Biopsia</span></a>
 								
 				<!-- start: Header Menu -->
 				<div class="nav-no-collapse header-nav">
@@ -345,19 +345,219 @@
 			<!-- start: Content -->
 			<div id="content" class="span10">
 			
-			
 			<ul class="breadcrumb">
 				<li>
 					<i class="icon-home"></i>
-					<a href="index.php">Inicio</a> 
-					<i class="icon-angle-right"></i>
+					<a href="index.php">Inicio</a>
+					<i class="icon-angle-right"></i> 
 				</li>
-				
+				<li>
+					<i class="icon-edit"></i>
+					<a href="#">Solicitud Biopsia</a>
+				</li>
 			</ul>
 			
-			
+			<div class="row-fluid sortable">
+				<div class="box span12">
+					<div class="box-header" data-original-title>
+						<h2><i class="halflings-icon white edit"></i><span class="break"></span>Datos de Paciente</h2>
+						<div class="box-icon">
+							<a href="#" class="btn-setting"><i class="halflings-icon white wrench"></i></a>
+							<a href="#" class="btn-minimize"><i class="halflings-icon white chevron-up"></i></a>
+							<a href="#" class="btn-close"><i class="halflings-icon white remove"></i></a>
+						</div>
+					</div>
+					<div class="box-content">
+						<form class="form-horizontal">
+						  <fieldset>
+							<div class="control-group">
+							  <label class="control-label" for="typeahead">Paciente: </label>
+							  <div class="controls">
+								<input type="text" class="span6 typeahead" id="typeahead"  data-provide="typeahead" data-items="4" data-source='["JUAN ANTONIO DIAZ","AMERICO ALEJANDRO PAREZ","FERNANDO VERA","RONALD CORTEZ"]'>
+								<p class="help-block">Busque paciente (RUT, NOMBRES o APELLIDOS)</p>
+							  </div>
+							</div>
+							
+							<div class="control-group">
+								<label class="control-label">RUT:</label>
+								<div class="controls">
+									<span class="input-xlarge uneditable-input"></span>
+								</div>
+							</div>
+							
+						  </fieldset>
 
-			
+					</div>
+				</div><!--/span-->
+				
+				<div class="row-fluid sortable">
+				<div class="box span12">
+					<div class="box-header" data-original-title>
+						<h2><i class="halflings-icon white edit"></i><span class="break"></span>Solictud Biopsia</h2>
+						<div class="box-icon">
+							<a href="#" class="btn-setting"><i class="halflings-icon white wrench"></i></a>
+							<a href="#" class="btn-minimize"><i class="halflings-icon white chevron-up"></i></a>
+							<a href="#" class="btn-close"><i class="halflings-icon white remove"></i></a>
+						</div>
+					</div>
+					<div class="box-content">
+						<form class="form-horizontal">
+						  <fieldset>
+							<div class="row-fluid">
+								<div class="control-group">
+								  <table>
+									  <tr>
+										  <td style='width:100px;'>
+											  <label class="control-label" for="typeahead">Nro. Frascos </label>
+											  <div class="controls">
+												  <select id="nro_frascos" data-rel="chosen" style="width:50px;">
+													<option value='1'>1</option>
+													<option value='2'>2</option>
+													<option value='3'>3</option>
+													<option value='4'>4</option>
+													<option value='5'>5</option>
+													<option value='6'>6</option>
+													<option value='7'>7</option>
+													<option value='8'>8</option>
+													<option value='9'>9</option>
+													<option value='10'>10</option>
+												  </select>
+												</div>
+											</td>
+											<td style='width:100px;'>
+											  <label class="control-label" for="typeahead">Nro. Muestras </label>
+										  <div class="controls">
+											  <select id="nro_muestras_fc" data-rel="chosen" style="width:50px;">
+												<option value='1'>1</option>
+												<option value='2'>2</option>
+												<option value='3'>3</option>
+												<option value='4'>4</option>
+												<option value='5'>5</option>
+												<option value='6'>6</option>
+												<option value='7'>7</option>
+												<option value='8'>8</option>
+												<option value='9'>9</option>
+												<option value='10'>10</option>
+											  </select>
+											</div>
+											</td>
+										</tr>
+										<tr>
+											<td style='width:100px;'>
+											  <label class="control-label" for="typeahead">Nro. Bolsas </label>
+										  <div class="controls">
+											  <select id="nro_bolsas" data-rel="chosen" style="width:50px;">
+												<option value='1'>1</option>
+												<option value='2'>2</option>
+												<option value='3'>3</option>
+												<option value='4'>4</option>
+												<option value='5'>5</option>
+											  </select>
+											</div>
+											</td>
+											<td style='width:100px;'>
+											  <label class="control-label" for="typeahead">Nro. Muestras </label>
+										  <div class="controls">
+											  <select id="nro_muestras_bol" data-rel="chosen" style="width:50px;">
+												<option value='1'>1</option>
+												<option value='2'>2</option>
+												<option value='3'>3</option>
+												<option value='4'>4</option>
+												<option value='5'>5</option>
+												<option value='6'>6</option>
+												<option value='7'>7</option>
+												<option value='8'>8</option>
+												<option value='9'>9</option>
+												<option value='10'>10</option>
+											  </select>
+											</div>
+											</td>
+											
+											<td style='width:100px;' rowspan='2'>
+											  <label class="control-label" for="typeahead">Tipo </label>
+										  <div class="controls">
+											  <select id="tipo_s" data-rel="chosen" style="width:150px;">
+												<option value='1'>Ambulatorio</option>
+												<option value='2'>Hospitalizado</option>
+												
+											  </select>
+											</div>
+											</td>
+									</tr>
+								</table>
+								<tr>
+									<td>Diagnostico</td>
+										<td>
+										<div class="controls">
+										<input id="diag" class="input-xlarge focused" type="text" value="">
+										</div>
+										</td>
+								</tr>
+								<tr>
+									<td>Organo</td>
+										<td>
+										<div class="controls">
+										<input id="org" class="input-xlarge focused" type="text" value="">
+										</div>
+										</td>
+								</tr>
+								<tr>
+									<td>
+									<div class="controls">
+											  <select id="carac" data-rel="chosen" style="width:150px;">
+												<option value='1'>Benigno</option>
+												<option value='2'>Maligno</option>												
+											  </select>
+											</div>
+									</td>
+								</tr>
+								<tr>
+									<td>Evoluci&oacute;n</td>
+									<td>
+									<div class="controls">
+											 <input id="evolu" class="input-xlarge focused" type="text" value=""> 
+									</div>
+									</td>
+								</tr>
+								<tr>
+									<td>Antecedentes</td>
+									<td>
+									<div class="controls">
+											 <input id="antec" class="input-xlarge focused" type="text" value=""> 
+									</div>
+									</td>
+								</tr>
+								<tr>
+									<td>Observaciones</td>
+									<td>
+									<div class="controls">
+											 <input id="obse" class="input-xlarge focused" type="text" value=""> 
+									</div>
+									</td>
+								</tr>
+								<tr>
+									<div class="control-group">
+									  <td><label class="control-label" for="date01">Fecha Nacimiento</label></td>
+									 <td><div class="controls">
+										<input type="text" class="input-xlarge datepicker" id="date01" value="">
+									  </div></td>
+									</div>
+								</tr>
+							</div>
+							
+						  </fieldset>
+						  
+
+					</div>
+				</div><!--/span-->
+				
+				<div class="form-actions">
+							  <button type="submit" class="btn btn-primary">Enviar Solicitud</button>
+							  <button type="reset" class="btn">Cancelar</button>
+							</div>
+						</form>   
+			</div><!--/row-->
+
        
 
 	</div><!--/.fluid-container-->
@@ -377,15 +577,6 @@
 		<div class="modal-footer">
 			<a href="#" class="btn" data-dismiss="modal">Close</a>
 			<a href="#" class="btn btn-primary">Save changes</a>
-		</div>
-	</div>
-	
-	<div class="common-modal modal fade" id="common-Modal1" tabindex="-1" role="dialog" aria-hidden="true">
-		<div class="modal-content">
-			<ul class="list-inline item-details">
-				<li><a href="http://themifycloud.com">Admin templates</a></li>
-				<li><a href="http://themescloud.org">Bootstrap themes</a></li>
-			</ul>
 		</div>
 	</div>
 	

@@ -22,9 +22,8 @@
 						<li>
 							<a class="dropmenu" href="#"><i class="icon-folder-close-alt"></i><span class="hidden-tablet"> Biopsia</span></a>
 							<ul>
-								<li><a class="submenu" href="submenu.html"><i class="icon-file-alt"></i><span class="hidden-tablet"> Solicitud de Biopsia</span></a></li>
-								<li><a class="submenu" href="submenu2.html"><i class="icon-file-alt"></i><span class="hidden-tablet"> Procesar Solicitud</span></a></li>
-								<li><a class="submenu" href="submenu3.html"><i class="icon-file-alt"></i><span class="hidden-tablet"> Historial de Biopsia</span></a></li>
+								<li><a class="submenu" href="solicitud_biopsia.php"><i class="icon-file-alt"></i><span class="hidden-tablet"> Solicitud de Biopsia</span></a></li>
+								<li><a class="submenu" href="adm_solicitud.php"><i class="icon-file-alt"></i><span class="hidden-tablet"> Procesar Solicitud</span></a></li>
 							</ul>	
 						</li>
 
